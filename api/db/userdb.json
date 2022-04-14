@@ -1,0 +1,21 @@
+[
+  {
+    "_id": 1,
+    "username": "NombreGenericoNoDeUnBOT30",
+    "email": "dev@dev.com",
+    "password": "$2b$10$l6RfyJTMnuATmwmbDGIzkuLXg1k2cYOyV49vzVvG5jVeTvGsplMMu"
+  },
+  {
+    "_id": 2,
+    "username": "NombreGenericoNoDeUnBOT30",
+    "email": "dev@dev.com",
+    "password": "$2b$10$pBR7rVe32Ya0Ucjm3l9BoO0gH7L7vTlBHXcWYHFPiH8fKveYULHWm"
+  },
+  {
+    "_id": 3,
+    "username": "NombreGenericoNoDeUnBOT30",
+    "email": "dev@dev.com",
+    "password": "$2b$10$049gq2D8ktQCEu5NKxKyheAdDrlWuQK6ea4uEJ/svS6G40Uv5JFSC",
+    "_role": "admin"
+  }
+]

@@ -1,0 +1,24 @@
+openapi: 3.0.0
+info:
+  description: "This is an api in which you can register, authorize depending on your role and obtain data"
+  version: "1.0.0"
+  title: "School-API"
+host: "localhost:5500"
+basePath: "/api/v1"
+tags:
+- name: "user"
+  description: "Create and get users"
+- name: "auth"
+  description: "Operations about user"
+- name: "school data"
+  description: "Obtain data about the school such as totals, averages and statistics"
+schemes:
+- "https"
+- "http"
+paths:
+  /user/:
+    get:
+      summary: "Get all users"
+      description: "Get all users"
+      tags:
+      - "user"

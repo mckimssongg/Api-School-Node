@@ -1,0 +1,39 @@
+#Test de nuestro servidor
+@url = http://127.0.0.1:5500/api/v1/
+###
+
+GET {{url}}user
+
+###
+GET {{url}}user/1
+
+###
+GET {{url}}user/110
+
+###
+GET {{url}}user/62551a37d9e65efe7f46edc7
+
+###
+GET {{url}}user/6255ad6863cdee1e40e01d2d
+
+
+######
+POST {{url}}user
+Content-Type: application/json
+
+{
+    "username": "NombreGenericoNoDeUnBOT2000",
+    "email": "dev@green.com",
+    "password": "Vacas987",
+    "role" : "admin"
+}
+
+# ######
+# PUT {{url}}user/1
+# Content-Type: application/json
+
+# {
+#     "username": "NombreGenericoNoDeUnBOTActualizado",
+#     "email": "dev@dev.com",
+#     "password": "arbol",
+# }

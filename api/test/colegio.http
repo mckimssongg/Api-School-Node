@@ -1,0 +1,92 @@
+@url = http://127.0.0.1:5500/api/v1/
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJuYW1lIjoiTm9tYnJlR2VuZXJpY29Ob0RlVW5CT1QyMDAwIiwiZW1haWwiOiJkZXZAZ3JlZW4uY29tIiwicGFzc3dvcmQiOiJWYWNhczk4NyIsInJvbGUiOiJhZG1pbiJ9LCJpYXQiOjE2NDk4MTM3NDksImV4cCI6MTY0OTgyNDU0OX0.CvU8520-nsNWIW3rNzMGxnQx2twekHV2QUqfAGaKAG0
+
+@tokeBasic = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJuYW1lIjoiTm9tYnJlR2VuZXJpY29Ob0RlVW5CT1QzMCIsImVtYWlsIjoiZGV2QGRldi5jb20iLCJwYXNzd29yZCI6IiQyYiQxMCROTm1tc3h5N3FNUGd6MVRML0tWazBPUm9PdGl0NkkuVEF6Lnl6Mm05WWFvNDJCczVicG9XUyIsInJvbGUiOiJiYXNpYyJ9LCJpYXQiOjE2NDk4MTYwMDIsImV4cCI6MTY0OTgyNjgwMn0.Jbu_htLNQeivkbdy24SlE3jvdGlGQxEnrGOanL-73d0
+#TOTALES DE COLEGIO POR NIVEL Y GENERO
+###
+#request query
+GET {{url}}colegio
+authorization: {{token}}
+###
+#request query
+GET {{url}}colegio?nivel=primaria
+authorization: {{token}}
+###
+#request query
+GET {{url}}colegio?nivel=secundaria
+authorization: {{token}}
+###
+#request query
+GET {{url}}colegio?genero=male
+authorization: {{token}}
+###
+#request query
+GET {{url}}colegio?genero=female
+authorization: {{token}}
+###
+#request query
+GET {{url}}colegio?nivel=primaria&genero=male
+authorization: {{token}}
+###
+#request query
+GET {{url}}colegio?nivel=primaria&genero=female
+authorization: {{token}}
+###
+#request query
+GET {{url}}colegio?nivel=secundaria&genero=male
+authorization: {{token}}
+###
+#request query
+GET {{url}}colegio?nivel=secundaria&genero=female
+authorization: {{token}}
+
+###
+#request query
+GET {{url}}colegio?option=moda
+authorization: {{token}}
+###
+#request query
+GET {{url}}colegio?option=media
+authorization: {{tokeBasic}}
+###
+#request query
+GET {{url}}colegio?option=mediana
+authorization: {{token}}
+###
+#request query
+GET {{url}}colegio?option=MPP
+authorization: {{token}}
+###
+#request query
+GET {{url}}colegio?option=MPM&materia=matematicas
+authorization: {{token}}
+###
+#request query
+GET {{url}}colegio?option=MPM&materia=historia
+authorization: {{token}}
+###
+#request query
+GET {{url}}colegio?option=MPM&materia=filosofia
+authorization: {{token}}
+###
+#request query
+GET {{url}}colegio?option=MPM&materia=artes
+authorization: {{token}}
+###
+#request query
+GET {{url}}colegio?option=MPM&materia=educacion_fisica
+authorization: {{token}}
+###
+#request query
+GET {{url}}colegio?option=MPM&materia=biologia
+authorization: {{token}}
+###
+#request query
+GET {{url}}colegio?option=MPM&materia=quimica
+authorization: {{token}}
+###
+#request query
+GET {{url}}colegio?option=MPM&materia=fisica
+authorization: {{token}}
+
+
